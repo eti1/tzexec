@@ -39,4 +39,4 @@ Same-same: check kernel logs for success.
 This exploit disables the signature checking only, bute the image still need to contain the proper segment's hashes. 
 
 To run arbitrary firmware images, just patch the things you want, correct the hash segment, and there you are. 
-I'll provide a tool that does this it in a separate repo. 
+You can use [pymdt](https://github.com/eti1/pymdt) to do this.
